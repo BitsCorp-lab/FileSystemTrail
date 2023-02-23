@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-const baseFilePath = "./ProjectsDatabase/";
+const baseFilePath = "./ProjectsDatabase";
 const PORT = process.env.PORT
 
 app.post("/api/v1/create", (req, res) => {
